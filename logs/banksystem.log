@@ -1,0 +1,9 @@
+2026-04-29 20:24:19.556 [main] WARN  com.banksystem.CheckingAccount - Rút tiền vãng lai thất bại. tài_khoản=1001 lý_do=Số dư tài khoản không đủ $20000.00 để thực hiện giao dịch
+2026-04-29 20:24:19.563 [main] WARN  com.banksystem.SavingsAccount - Rút tiền tiết kiệm thất bại. tài_khoản=2001 lý_do=Số tiền không hợp lệ: $1001.00
+2026-04-29 20:24:19.569 [main] INFO  com.banksystem.SavingsAccount - Nạp tiền tiết kiệm thành công. tài_khoản=2001 số_tiền=2000.0 số_dư_mới=12000.0
+2026-04-29 20:24:19.572 [main] INFO  com.banksystem.CheckingAccount - Nạp tiền vãng lai thành công. tài_khoản=1001 số_tiền=500.0 số_dư_mới=10500.0
+2026-04-29 20:24:19.578 [main] WARN  com.banksystem.CheckingAccount - Nạp tiền vãng lai thất bại. tài_khoản=1001 lý_do=Số tiền không hợp lệ: $-100.00
+2026-04-29 20:24:19.583 [main] INFO  com.banksystem.CheckingAccount - Rút tiền vãng lai thành công. tài_khoản=1001 số_tiền=1000.0 số_dư_còn=9000.0
+2026-04-29 20:24:19.588 [main] INFO  com.banksystem.SavingsAccount - Rút tiền tiết kiệm thành công. tài_khoản=2001 số_tiền=500.0 số_dư_còn=9500.0
+2026-04-29 20:24:19.594 [main] WARN  com.banksystem.SavingsAccount - Rút tiền tiết kiệm thất bại. tài_khoản=2001 lý_do=Số tiền không hợp lệ: $5001.00
+2026-04-29 20:24:19.596 [main] INFO  com.banksystem.CheckingAccount - Nạp tiền vãng lai thành công. tài_khoản=1001 số_tiền=300.0 số_dư_mới=10300.0
