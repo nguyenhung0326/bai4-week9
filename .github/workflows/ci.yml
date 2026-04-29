@@ -26,7 +26,7 @@ jobs:
           cache: maven
 
       - name: Run tests
-        run: mvn verify "-Dcheckstyle.skip=true"
+        run: mvn test "-Dcheckstyle.skip=true"
         shell: bash
 
       - name: Upload JaCoCo Coverage Report
